@@ -58,7 +58,7 @@ public class ViewerActivity extends AppCompatActivity {
         mConfig = new SlidrConfig.Builder()
                 .primaryColor(primary)
                 .secondaryColor(secondary)
-                .position(SlidrPosition.VERTICAL)
+                .position(SlidrPosition.LEFT)
                 .velocityThreshold(2400)
 //                .distanceThreshold(.25f)
 //                .edge(true)
